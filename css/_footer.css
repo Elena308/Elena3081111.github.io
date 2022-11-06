@@ -1,0 +1,127 @@
+/* .footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: var(--gray-light);
+  background-color: var(--black);
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__left {
+  max-width: 291px;
+  margin-right: 6.6%;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: flex-start;
+  width: 224px;
+  height: 72px;
+  margin-bottom: 16px;
+}
+
+.footer-list {
+  font-weight: var(--semibold);
+  font-size: 18px;
+  line-height: 36px;
+  margin-bottom: 90px;
+}
+
+.footer-link {
+  outline: none;
+  transition: color 0.5s;
+}
+
+.footer-link:hover:not(:active) {
+  color: var(--orange);
+}
+
+.footer-link:focus-visible {
+  outline: 2px solid var(--orange);
+  outline-offset: 3px;
+}
+
+.footer-lin:active {
+  color: var(--dark-orange);
+}
+
+.footer__center {
+  width: calc(570 / 1770 * 100%);
+}
+
+.footer__right {
+  width: calc(370 / 1770 * 100%);
+  margin-top: 87px;
+} */
+
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: var(--gray-light);
+  background-color: var(--black);
+}
+
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.footer__left {
+  max-width: 291px;
+  margin-right: 6.6%;
+}
+
+.footer__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  width: 224px;
+  height: 72px;
+  margin-bottom: 16px;
+}
+
+.footer-list {
+  font-weight: var(--semibold);
+  font-size: 18px;
+  line-height: 36px;
+  margin-bottom: 90px;
+}
+
+.footer-link {
+  outline: none;
+  -webkit-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.footer-link:hover:not(:active) {
+  color: var(--orange);
+}
+
+.footer-link:focus-visible {
+  outline: 2px solid var(--orange);
+  outline-offset: 3px;
+}
+
+.footer-lin:active {
+  color: var(--dark-orange);
+}
+
+.footer__center {
+  width: calc(570 / 1770 * 100%);
+}
+
+.footer__right {
+  width: calc(370 / 1770 * 100%);
+  margin-top: 87px;
+}

@@ -1,0 +1,43 @@
+:root {
+  /* шрифты  */
+  --dafault-fs: 16px;
+  --dafault-lh: 32px;
+
+  --regular: 400;
+  --medium: 500;
+  --semibold: 600;
+  --bold: 700;
+  --extrabold: 800;
+
+  /* цвета */
+  --black: #000;
+  --dark: #333;
+  --white: #fff;
+  --orange: #ff9900;
+  --dark-orange: #e1670e;
+  --gray: #414141;
+  --gray-dark: #666666;
+  --gray-light: #cacaca;
+  --body-gray: #e5e5e5;
+  --green: #97ee3f;
+
+  /* container */
+  --container-max-width: 1770px;
+  --container-padding: 50px;
+
+  /* content-slider */
+  --swiper-pagination-color: #fff;
+  --swiper-pagination-bullet-width: 15px;
+  --swiper-pagination-bullet-height: 15px;
+  --swiper-pagination-bullet-horizontal-gap: 10px;
+  --swiper-pagination-bullet-inactive-color: #fff;
+  --swiper-pagination-bullet-inactive-opacity: .4;
+
+}
+
+@media (max-width: 576px) {
+  :root {
+  --swiper-pagination-bullet-width: 10px;
+  --swiper-pagination-bullet-height: 10px;
+  }
+}

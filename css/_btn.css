@@ -1,0 +1,145 @@
+/* .btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: var(--bold);
+  font-size: 16px;
+  display: inline-block;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 16px;
+  color: var(--white);
+  background-color: var(--orange);
+  cursor: pointer;
+  outline: none;
+}
+
+.content__btn {
+  padding: 25px 39px;
+  font-size: 23px;
+  line-height: 28px;
+}
+
+.btn {
+  transition: background-color 0.5s ease;
+}
+
+.btn:hover:not(:active) {
+  background-color: #ffb84d;
+}
+
+.btn:focus {
+  background-color: #ffb84d;
+}
+
+.btn:active {
+  background-color: #e1670e;
+}
+
+.card-detail-btn {
+  padding: 20px 38px;
+  color: var(--white);
+  background-color: transparent;
+  border: 3px solid var(--orange);
+}
+
+.reset-btn {
+  border: none;
+}
+
+.btn_border {
+  font-weight: var(--regular);
+  border: 1px solid var(--black);
+  border-radius: 16px;
+  background-color: transparent;
+  color:var(--black) ;
+}
+
+.btn_border:hover:not(:active) {
+  color: var(--white);
+  border-color: #666666;
+  background-color: #666666;
+}
+
+.btn_border:focus {
+  color: var(--white);
+  border-color: #666666;
+  background-color: #666666;
+}
+
+.btn_border:active {
+  color: var(--white);
+  background-color: var(--black);
+} */
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: var(--bold);
+  font-size: 16px;
+  display: inline-block;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 16px;
+  color: var(--white);
+  background-color: var(--orange);
+  cursor: pointer;
+  outline: none;
+}
+
+.content__btn {
+  padding: 25px 39px;
+  font-size: 23px;
+  line-height: 28px;
+}
+
+.btn {
+  -webkit-transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+}
+
+.btn:hover:not(:active) {
+  background-color: #ffb84d;
+}
+
+.btn:focus {
+  background-color: #ffb84d;
+}
+
+.btn:active {
+  background-color: #e1670e;
+}
+
+.card-detail-btn {
+  padding: 20px 38px;
+  color: var(--white);
+  background-color: transparent;
+  border: 3px solid var(--orange);
+}
+
+.reset-btn {
+  border: none;
+}
+
+.btn_border {
+  font-weight: var(--regular);
+  border: 1px solid var(--black);
+  border-radius: 16px;
+  background-color: transparent;
+  color: var(--black);
+}
+
+.btn_border:hover:not(:active) {
+  color: var(--white);
+  border-color: #666666;
+  background-color: #666666;
+}
+
+.btn_border:focus {
+  color: var(--white);
+  border-color: #666666;
+  background-color: #666666;
+}
+
+.btn_border:active {
+  color: var(--white);
+  background-color: var(--black);
+}

@@ -1,0 +1,21 @@
+.questions {
+  padding-top: 63px;
+  padding-bottom: 102px;
+}
+
+.questions__title {
+  margin-bottom: 34px;
+}
+
+.questions__accordion {
+  border-top: 1px solid #cacaca;
+}
+
+.subtitle {
+  display: inline-block;
+  padding: 39px 0;
+}
+
+.questions__accordion:last-child {
+  border-bottom: 1px solid #cacaca;
+}

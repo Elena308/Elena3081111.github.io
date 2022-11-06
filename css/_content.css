@@ -1,0 +1,141 @@
+/* .content__wrapper {
+  position: relative;
+  padding: 100px 80px;
+}
+
+.content {
+  min-height: 620px;
+  margin-bottom: 25px;
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+.content__desc {
+  position: relative;
+  z-index: 12;
+  max-width: 837px;
+  align-items: flex-start;
+}
+
+.content__title {
+  font-weight: var(--extrabold);
+  font-size: 70px;
+  line-height: 85px;
+  margin: 0 0 24px;
+  color: var(--white);
+}
+
+.content__text {
+  font-weight: var(--bold);
+  font-size: 24px;
+  line-height: 29px;
+  margin: 0 0 90px;
+  color: var(--white);
+}
+
+.content__slider {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.content__slide {
+  background-color: var(--gray);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.content__slide_one {
+  background-image: url(../img/photo-of-balconies.jpg);
+}
+
+.content__slide_two {
+  background-image: url(../img/hero-pic-2@1920.jpg);
+}
+
+.content__slide_three {
+  background-image: url(../img/hero-pic-3@1920.jpg);
+}
+
+.content-slider-pagination.swiper-pagination {
+  bottom: 26px;
+  padding-left: 40px;
+  padding-right: 40px;
+  line-height: 1;
+} */
+
+.content__wrapper {
+  position: relative;
+  padding: 100px 80px;
+}
+
+.content {
+  min-height: 620px;
+  margin-bottom: 25px;
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+.content__desc {
+  position: relative;
+  z-index: 12;
+  max-width: 837px;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.content__title {
+  font-weight: var(--extrabold);
+  font-size: 70px;
+  line-height: 85px;
+  margin: 0 0 24px;
+  color: var(--white);
+}
+
+.content__text {
+  font-weight: var(--bold);
+  font-size: 24px;
+  line-height: 29px;
+  margin: 0 0 90px;
+  color: var(--white);
+}
+
+.content__slider {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.content__slide {
+  background-color: var(--gray);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.content__slide_one {
+  background-image: url(../img/photo-of-balconies.jpg);
+}
+
+.content__slide_two {
+  background-image: url(../img/hero-pic-2@1920.jpg);
+}
+
+.content__slide_three {
+  background-image: url(../img/hero-pic-3@1920.jpg);
+}
+
+.content-slider-pagination.swiper-pagination {
+  bottom: 26px;
+  padding-left: 40px;
+  padding-right: 40px;
+  line-height: 1;
+}

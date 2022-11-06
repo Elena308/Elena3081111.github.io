@@ -1,0 +1,145 @@
+/* .work {
+  padding-top: 25px;
+  padding-bottom: 48px;
+}
+
+.work-title {
+  margin-bottom: 50px;
+}
+
+.work__desc {
+  display: none;
+  justify-content: space-between;
+}
+
+.work__desc.active {
+  display: flex;
+  animation-name: fade-in;
+  animation-duration: 0.7s;
+}
+
+.work__desc::after {
+  content: "";
+  width: calc(437 / 924 * 100%);
+  min-height: 460px;
+  background-color: var(--gray);
+  border-radius: 32px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.work__desc_foto-one::after {
+  background-image: url("../img/work-foto.jpg");
+}
+
+.work__desc_foto-two::after{
+  background-image: url("../img/tabs-2.jpg");
+}
+
+.work__desc_foto-three::after{
+  background-image: url("../img/tabs-3.jpg");
+}
+
+.work__desc_foto-four::after {
+  background-image: url("../img/tabs-4.jpg");
+}
+
+.work__left {
+  width: calc(760 / 1770 * 100%);
+}
+
+.work-subtitle {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: var(--bold);
+  color: var(--dark);
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.work-text {
+  margin-bottom: 46px;
+}
+
+.work__btn {
+  padding: 20px 38px;
+  margin-right: 28px;
+} */
+
+.work {
+  padding-top: 25px;
+  padding-bottom: 48px;
+}
+
+.work-title {
+  margin-bottom: 50px;
+}
+
+.work__desc {
+  display: none;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.work__desc.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-animation-name: fade-in;
+  animation-name: fade-in;
+  -webkit-animation-duration: 0.7s;
+  animation-duration: 0.7s;
+}
+
+.work__desc::after {
+  content: "";
+  width: calc(437 / 924 * 100%);
+  min-height: 460px;
+  background-color: var(--gray);
+  border-radius: 32px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.work__desc_foto-one::after {
+  background-image: url("../img/work-foto.jpg");
+}
+
+.work__desc_foto-two::after {
+  background-image: url("../img/tabs-2.jpg");
+}
+
+.work__desc_foto-three::after {
+  background-image: url("../img/tabs-3.jpg");
+}
+
+.work__desc_foto-four::after {
+  background-image: url("../img/tabs-4.jpg");
+}
+
+.work__left {
+  width: calc(760 / 1770 * 100%);
+}
+
+.work-subtitle {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: var(--bold);
+  color: var(--dark);
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.work-text {
+  margin-bottom: 46px;
+}
+
+.work__btn {
+  padding: 20px 38px;
+  margin-right: 28px;
+}
